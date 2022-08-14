@@ -1,0 +1,197 @@
+.main__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-card {
+    padding-top: 78px;
+}
+
+.contacts-card__pic {
+    margin-bottom: 56px;
+}
+
+.address__title {
+    margin-bottom: 24px;
+}
+
+.address__text {
+    width: 299px;
+    margin-bottom: 40px;
+}
+
+.phone__title {
+    margin-bottom: 8px;
+}
+
+.phone__list-item {
+    padding-top: 16px;
+}
+
+.phone__item-link {
+    display: flex;
+    opacity: 0.6;
+    text-decoration: none;
+    color: #1F3F68;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.phone__link-vector {
+    padding-right: 19px;
+}
+
+.online-service {
+    padding: 0;
+    padding-top: 40px;
+}
+
+.online-service__title {
+    margin-bottom: 8px;
+}
+
+.online-service__list-item {
+    padding-top: 16px;
+}
+
+.online-service__item-link {
+    display: flex;
+    opacity: 0.6;
+    text-decoration: none;
+    color: #1F3F68;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+}
+
+.online-service__link-vector {
+    padding-right: 18px;
+}
+
+.send-message-form {
+    padding: 56px 56px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: 94px;
+}
+
+.send-message-form__title {
+    margin-bottom: 48px;
+}
+
+.send-message-form__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+    margin-bottom: 8px;
+}
+
+.send-message-form__input {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.2;
+    padding: 21px 36px;
+    margin-bottom: 32px;
+    width: 100%;
+}
+
+
+.send-message-form__btn-link {
+    margin: auto;
+    padding: 23px 183px;
+    font-weight: 500;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+}
+
+.send-message-form__btn {
+    padding-top: 40px;
+    margin: auto;
+}
+
+.send-message-form__label_margin {
+    margin-bottom: 172px;
+}
+
+.map {
+    width: 100%;
+    margin-bottom: 112px;
+}
+
+@media (max-width: 1024px) {
+    .main__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts-card {
+        padding: 0;
+        margin-bottom: 64px;
+    }
+
+    .contacts-card__pic {
+        margin-bottom: 64px;
+    }
+
+    .send-message-form__title {
+        width: 180px;
+    }
+
+    .send-message-form {
+        margin-bottom: 64px;
+    }
+
+    .map {
+        margin-bottom: 64px;
+    }
+}
+
+@media (max-width: 667px) {
+    .contacts-card {
+        margin-bottom: 32px;
+    }
+
+    .send-message-form__btn-link {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .send-message-form {
+        padding: 36px;
+    }
+
+    .send-message-form__title {
+        font-size: 16px;
+        width: 217px;
+    }
+
+    .send-message-form__text {
+        font-size: 14px;
+        margin: 0 auto;
+
+    }
+
+    .send-message-form__input {
+        padding: 13px 26px;
+        margin-bottom: 21px;
+    }
+
+    .send-message-form__btn {
+        padding-top: 25px;
+    }
+
+}

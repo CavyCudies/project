@@ -1,0 +1,132 @@
+.projects__title {
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    color: #000000;
+    font-size: 36px;
+    line-height: 46px;
+    width: 750px;
+    margin: auto;
+    padding-bottom: 32px;
+}
+
+.projects__subtitle {
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #222222;
+    opacity: 1;
+    padding-bottom: 64px;
+    width: 750px;
+    text-align: center;
+    margin: auto;
+}
+
+.project-card {
+    position: relative;
+    flex-grow: 1;
+}
+
+.project-card_margin {
+    margin-right: 32px;
+}
+
+.project-card__pic {
+    width: 100%;
+}
+
+.project-card__text {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    top: 64px;
+    right: 64px;
+    position: absolute;
+    margin-top: auto;
+}
+
+.projects__box {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 112px;
+}
+
+.project-card__text_left {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    text-align: left;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    top: 32px;
+    left: 32px;
+    position: absolute;
+    margin-top: auto;
+}
+
+@media (max-width: 1024px) {
+
+    .projects__title {
+        width: 100%;
+    }
+
+    .projects__subtitle {
+        width: 100%;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .projects__box {
+        margin-bottom: 109px;
+    }
+
+    .project-card__text_left {
+        top: 20px;
+        left: 20px;
+    }
+}
+
+@media (max-width: 667px) {
+
+    .projects__title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .projects__subtitle {
+        padding-bottom: 82px;
+    }
+
+    .project-card {
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+
+    .project-card__text {
+        font-size: 16px;
+        line-height: 19px;
+        top: 16px;
+        right: 16px;
+    }
+
+    .project-card__text_left {
+        font-size: 16px;
+        line-height: 19px;
+        top: 16px;
+        left: 16px;
+    }
+
+    .projects__box {
+        margin: 0 auto;
+        flex-direction: column;
+        margin-bottom: 64px;
+    }
+
+}

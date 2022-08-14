@@ -1,0 +1,145 @@
+.footer {
+    background: #316099;
+}
+
+.cta-lets-go {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-lets-go__title {
+    width: 340px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-align: left;
+    padding-top: 91px;
+    margin-bottom: 32px;
+}
+
+.cta-lets-go__text {
+    color: #FFFFFF;
+    width: 495px;
+    margin-bottom: 96px;
+}
+
+.button__link {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    padding: 15px 80px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 180px;
+}
+
+
+.footer__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+
+.footer__row {
+    border-top: 1px solid #FFFFFF;
+}
+
+.footer__list-item {
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    width: 317px;
+    margin-right: 32px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-bottom: 64px;
+}
+
+.copyright__text {
+    padding-bottom: 64px;
+    letter-spacing: 0.05em;
+    opacity: 0.4;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 1024px) {
+
+    .cta-lets-go__title {
+        padding-top: 47px;
+    }
+
+    .cta-lets-go__text {
+        width: 336px;
+        margin-bottom: 64px;
+    }
+
+    .button__link {
+        padding: 3px 0 10px 0;
+        margin-top: 161px;
+        width: 133px;
+    }
+
+    .footer__list {
+        flex-direction: column;
+    }
+
+    .footer__list-item {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .copyright__text {
+        padding-top: 39px;
+    }
+}
+
+@media (max-width: 667px) {
+
+    .cta-lets-go {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cta-lets-go__title {
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        padding-top: 18px;
+        width: 100%;
+    }
+
+    .cta-lets-go__text {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .button__link {
+        margin: 0 auto;
+        margin-bottom: 41px;
+    }
+
+    .footer__list {
+        width: 304px;
+        padding-left: 46px;
+    }
+
+    .footer__list-item {
+        margin-bottom: 18px;
+    }
+
+    .copyright__text {
+        text-align: center;
+        padding-top: 21px;
+    }
+}
